@@ -48,8 +48,9 @@ As an Amazon Associate I earn a small commission from qualifying purchases. I ap
 - Wire, heat shrink tubing, soldering iron, and solder
 
 ## Pressure Sensor Option - SPI or I2C
-- Honeywell ABPDRRV001PDSA3 or ABPMRRV060MG2A3 pressure sensor available from Mouser, Arrow, Newark, Digikey, etc. for around $13 USD
-[Mouser: ABPDRRV001PDSA3](https://www.mouser.com/ProductDetail/Honeywell/ABPDRRV001PDSA3?qs=%2Fha2pyFadui6v3NmLJXcNaJhDLtsWyFpilGTkFr3RAit4EGjj7MIDQ%3D%3D)
+- Honeywell ABPMAND001PG2A3, ABPDRRV001PDSA3 or ABPMRRV060MG2A3 pressure sensor available from Digikey, Mouser, Arrow, Newark, etc. for around $13 USD
+  - [Digikey: ABPMAND001PG2A3](https://www.digikey.com/en/products/detail/honeywell-sensing-and-productivity-solutions/ABPMAND001PG2A3/5322843?s=N4IgTCBcDaICwA4AMBaAbGArKgdgExAF0BfIA)
+  - [Mouser: ABPDRRV001PDSA3](https://www.mouser.com/ProductDetail/Honeywell/ABPDRRV001PDSA3?qs=%2Fha2pyFadui6v3NmLJXcNaJhDLtsWyFpilGTkFr3RAit4EGjj7MIDQ%3D%3D)
 - [Amazon: Plastic tube 1.6mm ID]( https://amzn.to/3myZdVW)
 - [Amazon: Standard Airline Tubing](https://amzn.to/2O6fUf1)
 - Optional [Amazon: Air-pump with check valve](https://amzn.to/3towGGn)
@@ -57,8 +58,7 @@ As an Amazon Associate I earn a small commission from qualifying purchases. I ap
 - Optional [Amazon: 5Vdc Relay](https://amzn.to/3cQQJaP)
 - Wire, heat shrink tubing, soldering iron, and solder
 
-I used the ABPDRRV001PDSA3 which is a 3-wire SPI bus interface in a DIP package (Dual-Inline Package used with breadboards). I have also used the ABPMRR060MG2A3 which is a 2-wire I2C bus interface but in a surface mount package which requires soldering. Both are 3.3 Vdc supply voltage. The I2C pull up resistors are not required when used with 
-the RPI.
+The ABPMRR060MG2A3 which is a 2-wire I2C bus interface but in a surface mount package which requires soldering.  The I2C pull up resistors are not required when used with the RPI. The ABPDRRV001PDSA3 which is a 3-wire SPI bus interface in a DIP package (Dual-Inline Package used with prototype/breadboards).  Both are 3.3 Vdc supply voltage.
 
 ## Raspberry Pi system (if you don’t already own one)
 - Raspberry Pi (any of the following)

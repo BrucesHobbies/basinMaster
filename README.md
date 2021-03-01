@@ -17,7 +17,7 @@ The Raspberry Pi looked like an ideal platform to monitor and log sump basin wat
 - Ultasonic range finder: HC-SR04
 - Pressure sensor: Honeywell ABP series
 
-This open source program logs the water depth and will send email alerts if the water depth exceeds an alert level. It can also send status reports on a periodic interval. The alerts and status messages can be an email or SMS message sent via email. Feel free to contribute with custom alert options such as MQTT, IFTT, etc. The program is written in Python and can be ported to additional platforms. The program runs from a terminal window or at boot.
+This open source program logs the water depth and will send email alerts if the water depth exceeds an alert level. Options include Comma Separated Variable (CSV) file, MQTT, and/or InfluxDB. It can also send status reports on a periodic interval. The alerts and status messages can be an email or SMS message sent via email. Feel free to contribute with custom alert options. The program is written in Python and can be ported to additional platforms. The program runs from a terminal window or at boot.
 
 plotBasinMaster.py plots the water depth log. You can view the plots and pan/zoom to specific time periods for the measurements. It uses MatPlotLib and is easy to customize to plot what is of interest to you.
 
@@ -266,11 +266,13 @@ VirginMobile|number@vmobl.com|
     Enter recipient’s device email userid (receiving_userid@something.com):
     Receiving_userid@something.com
  
-# Future Alert and Status Options
-Please feel free to fork and contribute or provide feedback on priorities and features
+# Current and Future Alert / Status Options
+Please feel free to fork and contribute or provide feedback on priorities and features. Edit pubScribe and uncomment the ENABLE options for your selections.
 
+- Email: supported
+- Comma Separated Variable (CSV) file: supported
 - Relay / buzzer
-- MQTT
+- MQTT: supported
   - OpenHab
   - Home Assistant
   - Domoticz

@@ -9,6 +9,7 @@ DATE: 02/04/2021
 REVISION HISTORY
   DATE        AUTHOR          CHANGES
   yyyy/mm/dd  --------------- -------------------------------------
+  2021/02/10  BrucesHobbies   Updated default filenames
 
 
 OVERVIEW:
@@ -49,7 +50,7 @@ import csv
 
 # fig.savefig(filename, bbox_inches='tight')   # save the figure to file
 
-filenames = ["logDepthGauge.csv"]
+filenames = ["basinMaster_WaterDepth.csv"]
 
 
 #
@@ -123,9 +124,8 @@ def plotMultiVar(tStamp, data, title) :
 if __name__ == "__main__" :
 
     # Sump Well Water Depth
-    filename = "logDepthGauge.csv"
-    hdr, tStamp, data = importCsv(filename)
-    plotMultiVar(tStamp, data, filename)
+    hdr, tStamp, data = importCsv(filenames)
+    plotMultiVar(tStamp, data, filenames)
 
     plt.show()    # Blocks, user must close plot window
 

@@ -41,7 +41,7 @@ For the pressure sensor, I used a single reading without additional processing. 
 submerged tube leading to the above basin sensor would slowly leak. To solve this, I used an inexpensive aquarium pump to pressurize the system with a relay to turn it on and off. 
 
 # Required Hardware 
-As an Amazon Associate I earn a small commission from qualifying purchases. I appreciate your support, if you purchase using the links below.
+As an Amazon Associate I earn a small commission from qualifying purchases. It does not in any way change the prices on Amazon. I appreciate your support, if you purchase using the links below.
 ## Ultrasonic Range Sensor Option
 - HC-SR04  [Amazon: HC-SR04](https://amzn.to/2O45koR)
 - 1k ohm and 2K ohm resistors to divide 5 volt signal down to 3.3 volts input for RPi

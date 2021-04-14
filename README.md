@@ -81,7 +81,7 @@ Pin  2 (5Vdc)|Vcc|
 Pin  6 (GND)|GND|
 Pin 16 (GPIO23)|TRIG|
 
-RPi inputs cannot be exposed to voltages less than 0 or greater than 3.3 volts.For ECHO out of the sensor the voltage is 5 volts. One approach of converting it to 3.3 volts is to feed the ECHO out to a voltage divider. This can be made from 1K ohm and 2K ohm resistors in series with the 1K ohm to the ECHO and the 2K ohm to ground. The RPi pin 18 
+RPi inputs cannot be exposed to voltages less than 0 or greater than 3.3 volts. For ECHO out of the sensor the voltage is 5 volts. One approach of converting it to 3.3 volts is to feed the ECHO out to a voltage divider. This can be made from 1K ohm and 2K ohm resistors in series with the 1K ohm to the ECHO and the 2K ohm to ground. The RPi pin 18 
 (GPIO24) goes to the 1K and 2K ohm center tap as shown below.
 
     ECHO >--+
